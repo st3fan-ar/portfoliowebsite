@@ -46,6 +46,31 @@ export default async function BlogPage() {
           </div>
         )}
       </div>
+      {/* Footer Navigation */}
+          <div className="mt-12 pt-8 border-t border-[#e5e4dc]">
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link 
+                href="/" 
+                className="text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+              >
+                Home
+              </Link>
+              <span className="text-[var(--text-secondary)]">•</span>
+              <Link 
+                href="/datenschutz" 
+                className="text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+              >
+                Datenschutz
+              </Link>
+                     <span className="text-[var(--text-secondary)]">•</span>
+              <Link 
+                href="/impressum" 
+                className="text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+              >
+                Impressum
+              </Link>
+            </div>
+          </div>
     </main>
   )
 }

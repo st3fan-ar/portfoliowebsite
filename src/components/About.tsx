@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <section id="about" className="py-32 px-6">
+    <section id="about" className="py-0 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-5xl font-bold mb-12 text-center text-[var(--text-primary)]">
           About <span className="gradient-text">Me</span>

@@ -13,7 +13,7 @@ export default function ImpressumPage() {
           href="/" 
           className="inline-flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors mb-8"
         >
-          ← Zurück zur Startseite
+          ← Back to Home
         </Link>
 
         <div className="bg-[var(--bg-secondary)]/50 border border-[#e5e4dc] rounded-2xl p-8 md:p-12">

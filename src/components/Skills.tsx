@@ -41,7 +41,7 @@ export default function Skills() {
   ]
 
   return (
-    <section id="skills" className="py-32 px-6">
+    <section id="skills" className="py-0 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-5xl font-bold mb-16 text-center text-[var(--text-primary)]">
           Core <span className="gradient-text">Competencies</span>

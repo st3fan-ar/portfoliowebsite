@@ -13,7 +13,7 @@ export default function DatenschutzPage() {
           href="/" 
           className="inline-flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors mb-8"
         >
-          ← Zurück zur Startseite
+          ← Back to Home
         </Link>
 
         <div className="bg-[var(--bg-secondary)]/50 border border-[#e5e4dc] rounded-2xl p-8 md:p-12">
@@ -61,6 +61,7 @@ export default function DatenschutzPage() {
                 Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere 
                 IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder 
                 Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+                Diese Website nutzt Vercel Web Analytics zur anonymisierten Auswertung von Seitenaufrufen. Dabei werden keine Cookies eingesetzt.
               </p>
 
               <h3 className="font-semibold text-lg mb-2 text-[var(--text-primary)]">
