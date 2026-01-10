@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="grid grid-cols-3 items-center gap-4 pt-6 border-t border-[#e5e4dc]">
           {/* Copyright - Left (33%) */}
           <div className="text-sm text-[var(--text-secondary)] text-left">
-            © {new Date().getFullYear()} Stefan Marquardt.<br className="hidden sm:inline" /> Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Stefan Marquardt.<br className="hidden sm:inline" /> All rights reserved.
           </div>
 
           {/* Legal Links - Center (33%) */}

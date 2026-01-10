@@ -8,8 +8,7 @@ export default function Navigation({ scrolled = false }: NavigationProps) {
   const navItems = [
     { label: 'About', href: '#about' },
     { label: 'Experience', href: '#experience' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Achievements', href: '#achievements' },
+    { label: 'Core Competencies', href: '#skills' },
     { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '#contact' },
   ]
