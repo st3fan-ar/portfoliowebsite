@@ -211,11 +211,74 @@ export default function DatenschutzPage() {
                 Website - hierzu müssen die Server-Log-Files erfasst werden.
               </p>
             </section>
+{/* Sanity CMS */}
+<section>
+  <h2 className="font-heading text-2xl font-bold mb-4 text-[var(--text-primary)]">
+    8. Sanity CMS (Content-Verwaltung)
+  </h2>
+  
+  <h3 className="font-semibold mb-2 text-[var(--text-primary)]">Datenverarbeitung</h3>
+  <p className="leading-relaxed mb-4">
+    Diese Website nutzt Sanity.io (Sanity Inc., USA) zur Verwaltung und Bereitstellung 
+    von Blog-Inhalten und Bildern.
+  </p>
 
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">Art der verarbeiteten Daten:</strong>
+  </p>
+  <ul className="list-disc list-inside space-y-2 mb-4 ml-4">
+    <li>Blog-Inhalte (Texte, Überschriften, Metadaten)</li>
+    <li>Bilder und Medien</li>
+    <li>Veröffentlichungsdaten</li>
+    <li>Technische Daten zur Content Delivery (IP-Adresse, Browser-Typ beim Abruf von Bildern)</li>
+  </ul>
+
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">Zweck der Verarbeitung:</strong><br />
+    Die Daten werden ausschließlich zur Bereitstellung der Blog-Inhalte verwendet. 
+    Es werden keine personenbezogenen Daten der Website-Besucher gespeichert oder verarbeitet.
+  </p>
+
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">Hosting & Datenübertragung:</strong><br />
+    Sanity hostet Daten auf Servern in den USA. Die Übertragung von Daten in die USA erfolgt 
+    auf Grundlage von Standardvertragsklauseln gemäß Art. 46 DSGVO.
+  </p>
+
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">CDN (Content Delivery Network):</strong><br />
+    Bilder und Medien werden über das Sanity CDN ausgeliefert, das global verteilt ist. 
+    Dies dient der schnelleren Ladezeit und besseren Performance der Website.
+  </p>
+
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">Rechtsgrundlage:</strong><br />
+    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse). Unser berechtigtes Interesse liegt 
+    in der effizienten und professionellen Verwaltung und Bereitstellung von Inhalten.
+  </p>
+
+  <p className="leading-relaxed mb-4">
+    <strong className="text-[var(--text-primary)]">Datenschutzerklärung des Anbieters:</strong><br />
+    <a 
+      href="https://www.sanity.io/legal/privacy" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-[var(--accent)] hover:underline"
+    >
+      https://www.sanity.io/legal/privacy
+    </a>
+  </p>
+
+  <p className="leading-relaxed">
+    <strong className="text-[var(--text-primary)]">Cookies:</strong><br />
+    Sanity selbst setzt keine Tracking-Cookies auf dieser Website. Die Content-Auslieferung 
+    erfolgt ohne Verwendung von Cookies.
+  </p>
+</section>
             {/* Ihre Rechte */}
             <section>
               <h2 className="font-heading text-2xl font-bold mb-4 text-[var(--text-primary)]">
-                8. Ihre Rechte
+                9. Ihre Rechte
               </h2>
               <div className="space-y-4">
                 <div>
