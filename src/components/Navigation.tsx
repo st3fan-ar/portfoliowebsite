@@ -15,16 +15,15 @@ export default function Navigation({ scrolled = false }: NavigationProps) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-[var(--bg-primary)]/90 backdrop-blur-md shadow-lg border-b border-[#e5e4dc]'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#hero" className="flex items-center">
-          <img src="/logo.svg" alt="Stefan" className="h-8" />
+            <img src="/logo.svg" alt="Stefan" className="h-8" />
           </a>
 
           <div className="hidden md:flex items-center gap-8">

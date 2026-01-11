@@ -8,7 +8,7 @@ export default function Experience() {
       description: `As Team Lead Power Electronics, I lead by empowering my engineering team to push the boundaries of industrial 
       hydrogen technology. I build an environment where my engineers collaborate effectively with cross-functional partners, develop 
       patent-protected innovations, and grow professionally. My leadership combines strategic vision for technical roadmaps with 
-      hands-on mentorship, enabling to master complex challenges in DC grid integration and multi-MW power electronics. I believe great 
+      hands-on mentorship, enabling to master complex challenges in DC grid integration and multi-MW power electronics. I believe great
       engineering leadership means creating clarity, removing obstacles, and developing people - not just delivering projects.`,
       tags: ['Leadership', 'System Architecture', 'Empowering', 'DC Networks', 'Innovation'],
     },
@@ -80,39 +80,41 @@ export default function Experience() {
           <div className="space-y-10">
             {questOnePositions.map((position, index) => (
               <div key={index} className="relative group">
-                {/* Position Dot - cuts through the line */}
-                <div className="absolute -left-7 top-6 w-5 h-5 rounded-full bg-[var(--accent)] border-[3px] border-[var(--bg-secondary)] group-hover:scale-125 transition-all duration-200 z-10" />
-                
-                {/* Content - hover highlights entire block */}
-                <div className="py-3 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)] transition-all duration-200">
-                  
-                  
-                  {/* Title */}
-                  <h4 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-0 group-hover:text-[var(--accent)] transition-colors duration-200">
-                    {position.title}
-                  </h4>
+                <div className="py-3 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)] transition-all duration-300 group-hover:scale-[1.05] group-hover:ml-6 group-hover:-mr-6 max-w-4xl">
+                  {/* Position Dot - cuts through the line */}
+                  <div className="absolute -left-7 top-6 w-5 h-5 rounded-full bg-[var(--accent)] border-[3px] border-[var(--bg-secondary)] group-hover:scale-125 transition-all duration-200 z-10" />
 
-                {/* Period - small text */}
-                  <p className="text-[var(--text-secondary)] text-sm mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
-                    {position.period}
-                  </p>
+                  {/* Content - hover highlights entire block */}
+                  <div className="py-3 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)] transition-all duration-200">
 
 
-                  {/* Description */}
-                  <p className="text-[var(--text-secondary)] leading-relaxed mb-4 whitespace-pre-line">
-                    {position.description}
-                  </p>
+                    {/* Title */}
+                    <h4 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-0 group-hover:text-[var(--accent)] transition-colors duration-200">
+                      {position.title}
+                    </h4>
 
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {position.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="bg-[var(--bg-secondary)] border border-[#e5e4dc] px-3 py-1 rounded-full text-xs text-[var(--text-secondary)]"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+                    {/* Period - small text */}
+                    <p className="text-[var(--text-secondary)] text-sm mb-3 group-hover:text-[var(--accent)] transition-colors duration-200 ">
+                      {position.period}
+                    </p>
+
+
+                    {/* Description */}
+                    <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
+                      {position.description}
+                    </p>
+
+                    {/* Tags */}
+                    <div className="flex flex-wrap gap-2">
+                      {position.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="bg-[var(--bg-secondary)] border border-[#e5e4dc] px-3 py-1 rounded-full text-xs text-[var(--text-secondary)]"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -120,12 +122,12 @@ export default function Experience() {
           </div>
         </div>
 
-{/* Early Career Header */}
-          <div className="mt-5 mb-1 pl-0">
-            <h3 className="font-heading text-3xl font-bold text-[var(--text-primary)]/70">
-              Early Career
-            </h3>
-          </div>
+        {/* Early Career Header */}
+        <div className="mt-5 mb-1 pl-0">
+          <h3 className="font-heading text-3xl font-bold text-[var(--text-primary)]/70">
+            Early Career
+          </h3>
+        </div>
 
         {/* Timeline Container early career- line starts here */}
         <div className="relative pl-8">
@@ -136,39 +138,43 @@ export default function Experience() {
           <div className="space-y-8">
             {earlyCareerPositions.map((position, index) => (
               <div key={index} className="relative group">
-                {/* Position Dot - smaller and lighter, cuts through line */}
-                <div className="absolute -left-7 top-6 w-5 h-5 rounded-full bg-[var(--accent)] border-[3px] border-[var(--bg-secondary)] group-hover:scale-125 transition-all duration-200 z-10" />
-                
-                {/* Content - hover highlights entire block */}
-                <div className="py-2 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)]/50 transition-all duration-200">
-                  {/* Period */}
-                  <p className="text-[var(--text-secondary)] text-sm mb-1">
-                    {position.period}
-                  </p>
-                  
-                  {/* Title & Company */}
-                  <h4 className="font-heading text-xl font-bold text-[var(--text-primary)]/80 group-hover:text-[var(--text-primary)] transition-colors duration-200">
-                    {position.title}
-                  </h4>
-                  <p className="text-[var(--accent)]/70 text-sm font-medium mb-3">
-                    {position.company} · {position.industry}
-                  </p>
+                <div className="py-3 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)] transition-all duration-300 group-hover:scale-[1.05] group-hover:ml-6 group-hover:-mr-6 max-w-4xl">
+                  {/* Position Dot - smaller and lighter, cuts through line */}
+                  <div className="absolute -left-7 top-6 w-5 h-5 rounded-full bg-[var(--accent)] border-[3px] border-[var(--bg-secondary)] group-hover:scale-125 transition-all duration-200 z-10" />
 
-                  {/* Description */}
-                  <p className="text-[var(--text-secondary)]/80 leading-relaxed text-sm mb-3">
-                    {position.description}
-                  </p>
+                  {/* Content - hover highlights entire block */}
+                  <div className="py-2 pr-4 rounded-lg group-hover:bg-[var(--bg-primary)]/50 transition-all duration-200">
 
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {position.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="bg-[var(--bg-secondary)]/50 border border-[#e5e4dc]/50 px-2 py-0.5 rounded-full text-xs text-[var(--text-secondary)]/70"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+
+                    {/* Title & Company */}
+                    <h4 className="font-heading text-xl font-bold text-[var(--text-primary)]/80 group-hover:text-[var(--text-primary)] transition-colors duration-200">
+                      {position.title}
+                    </h4>
+                    <p className="text-[var(--accent)]/70 text-sm font-medium mb-0">
+                      {position.company} · {position.industry}
+                    </p>
+
+                    {/* Period */}
+                    <p className="text-[var(--text-secondary)] text-sm mb-3">
+                      {position.period}
+                    </p>
+
+                    {/* Description */}
+                    <p className="text-[var(--text-secondary)] leading-relaxed  mb-3">
+                      {position.description}
+                    </p>
+
+                    {/* Tags */}
+                    <div className="flex flex-wrap gap-2">
+                      {position.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="bg-[var(--bg-secondary)]/50 border border-[#e5e4dc]/50 px-2 py-0.5 rounded-full text-xs text-[var(--text-secondary)]/70"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
